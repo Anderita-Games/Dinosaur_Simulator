@@ -1,31 +1,69 @@
 fileFormatVersion: 2
 guid: 66bf071c852145b47a86b5954d206643
-timeCreated: 1527885100
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Restart
-    21300002: Dinosaur_Start
-    21300004: Bird_1
-    21300006: Bird_2
-    21300008: Cactus_1
-    21300010: Cactus_2
-    21300012: Cactus_3
-    21300014: Cactus_4
-    21300016: Cactus_5
-    21300018: Cactus_6
-    21300020: Cactus_7
-    21300022: Cactus_8
-    21300024: Cactus_9
-    21300026: Cactus_10
-    21300028: Dinosaur_1
-    21300030: Dinosaur_2
-    21300032: Dinosaur_3
-    21300034: Dinosaur_4
-    21300036: Ground
-    21300038: Cloud
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Restart
+  - first:
+      213: 21300002
+    second: Dinosaur_Start
+  - first:
+      213: 21300004
+    second: Bird_1
+  - first:
+      213: 21300006
+    second: Bird_2
+  - first:
+      213: 21300008
+    second: Cactus_1
+  - first:
+      213: 21300010
+    second: Cactus_2
+  - first:
+      213: 21300012
+    second: Cactus_3
+  - first:
+      213: 21300014
+    second: Cactus_4
+  - first:
+      213: 21300016
+    second: Cactus_5
+  - first:
+      213: 21300018
+    second: Cactus_6
+  - first:
+      213: 21300020
+    second: Cactus_7
+  - first:
+      213: 21300022
+    second: Cactus_8
+  - first:
+      213: 21300024
+    second: Cactus_9
+  - first:
+      213: 21300026
+    second: Cactus_10
+  - first:
+      213: 21300028
+    second: Dinosaur_1
+  - first:
+      213: 21300030
+    second: Dinosaur_2
+  - first:
+      213: 21300032
+    second: Dinosaur_3
+  - first:
+      213: 21300034
+    second: Dinosaur_4
+  - first:
+      213: 21300036
+    second: Ground
+  - first:
+      213: 21300038
+    second: Cloud
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,6 +81,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -52,8 +94,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -1
+    aniso: 1
+    mipBias: 0
     wrapU: 0
     wrapV: 0
     wrapW: 0
@@ -65,18 +107,25 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -86,7 +135,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -96,7 +147,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: iPhone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -106,7 +159,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,7 +171,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: WebGL
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,6 +183,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -153,6 +211,13 @@ TextureImporter:
         - {x: 18, y: -16}
         - {x: 18, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Dinosaur_Start
       rect:
@@ -193,6 +258,13 @@ TextureImporter:
         - {x: 19, y: -18.5}
         - {x: 17, y: -20.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Bird_1
       rect:
@@ -237,6 +309,13 @@ TextureImporter:
         - {x: 23, y: 9}
         - {x: -4, y: 17}
       tessellationDetail: 1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Bird_2
       rect:
@@ -275,6 +354,13 @@ TextureImporter:
         - {x: 23, y: -13}
         - {x: 23, y: 2}
       tessellationDetail: 1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_1
       rect:
@@ -319,6 +405,13 @@ TextureImporter:
         - {x: 5.5, y: -4.5}
         - {x: 8.5, y: -1.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_2
       rect:
@@ -363,6 +456,13 @@ TextureImporter:
         - {x: 5.5, y: -4.5}
         - {x: 8.5, y: -1.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_3
       rect:
@@ -396,6 +496,13 @@ TextureImporter:
         - {x: 8.5, y: 14.5}
         - {x: 6.5, y: 17.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_4
       rect:
@@ -433,6 +540,13 @@ TextureImporter:
         - {x: 8.5, y: 15.5}
         - {x: 4.5, y: 17.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_5
       rect:
@@ -469,6 +583,13 @@ TextureImporter:
         - {x: 8.5, y: 13.5}
         - {x: 7.5, y: 17.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_6
       rect:
@@ -504,6 +625,13 @@ TextureImporter:
         - {x: 8.5, y: 15.5}
         - {x: 7.5, y: 17.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_7
       rect:
@@ -552,6 +680,13 @@ TextureImporter:
         - {x: 12.5, y: 22.5}
         - {x: 8.5, y: 24.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_8
       rect:
@@ -599,6 +734,13 @@ TextureImporter:
         - {x: 12, y: 21.5}
         - {x: 9, y: 24.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_9
       rect:
@@ -647,6 +789,13 @@ TextureImporter:
         - {x: 10.5, y: -20.5}
         - {x: 12.5, y: -8.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cactus_10
       rect:
@@ -700,6 +849,13 @@ TextureImporter:
         - {x: 12, y: 22.5}
         - {x: 8, y: 24.5}
       tessellationDetail: 1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Dinosaur_1
       rect:
@@ -728,6 +884,13 @@ TextureImporter:
         - {x: 22, y: -2.5}
         - {x: 22, y: 23.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Dinosaur_2
       rect:
@@ -758,6 +921,13 @@ TextureImporter:
         - {x: 22, y: 3.5}
         - {x: 22, y: 23.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Dinosaur_3
       rect:
@@ -784,6 +954,13 @@ TextureImporter:
         - {x: 22, y: 5.5}
         - {x: 22, y: 23.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Dinosaur_4
       rect:
@@ -812,6 +989,13 @@ TextureImporter:
         - {x: 22, y: -2.5}
         - {x: 22, y: 23.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ground
       rect:
@@ -1290,6 +1474,13 @@ TextureImporter:
         - {x: 520.5, y: 0}
         - {x: 516.5, y: 0}
       tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cloud
       rect:
@@ -1323,9 +1514,47 @@ TextureImporter:
         - {x: -7, y: -3.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dinosaur_1: 21300028
+      Dinosaur_4: 21300034
+      Cactus_1: 21300008
+      Dinosaur_Start: 21300002
+      Cactus_6: 21300018
+      Cloud: 21300038
+      Cactus_3: 21300012
+      Bird_2: 21300006
+      Bird_1: 21300004
+      Restart: 21300000
+      Dinosaur_2: 21300030
+      Cactus_9: 21300024
+      Cactus_5: 21300016
+      Cactus_7: 21300020
+      Cactus_4: 21300014
+      Cactus_10: 21300026
+      Cactus_8: 21300022
+      Ground: 21300036
+      Cactus_2: 21300010
+      Dinosaur_3: 21300032
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
